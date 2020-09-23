@@ -27,44 +27,53 @@
     width: 100%;
     background: #f3f6f9;
   }
+
   header {
-    padding: 64px 1rem;
+    padding: 2.4rem 1rem;
   }
+
   nav {
     margin: 0;
   }
+
   @media screen and (max-width: 840px) {
     nav {
       flex-direction: column;
     }
   }
+
   h1 {
     margin: 0 0 0 35px;
     padding: 0;
     text-align: center;
   }
+
   a {
     color: black;
     font-size: 19px;
   }
+
   li a:hover {
     text-decoration: none;
     border-bottom: 4px solid var(--color);
   }
+
   .logo {
     display: flex;
     align-items: center;
   }
+
   img {
-    width: 92px;
-    height: 92px;
+    width: 6.2rem;
+    height: 6.2rem;
   }
+
   footer {
     display: flex;
     justify-content: space-between;
-    max-width: unset;
-    padding: 3em;
+
   }
+
 </style>
 
 <div class="shaded" id="title">

@@ -4,10 +4,12 @@
 </script>
 
 <style>
+
   ul {
     list-style: none;
     margin-left: 20px;
   }
+
   li::before {
     content: "•";
     color: var(--svelte-grey-light);
@@ -15,12 +17,15 @@
     width: 1em;
     margin-left: -1em;
   }
+
   li.active::before {
     color: var(--svelte-grey);
   }
+
   li.active a {
     font-weight: bold;
   }
+
 </style>
 
 <ul>

@@ -18,6 +18,7 @@
 </script>
 
 <style>
+
   .controls {
     display: flex;
     justify-content: space-between;
@@ -41,6 +42,7 @@
     margin: 0;
     padding: 10px 15px;
   }
+
 </style>
 
 <main>

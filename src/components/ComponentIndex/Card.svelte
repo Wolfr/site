@@ -10,6 +10,7 @@
 </script>
 
 <style>
+
   .card {
     display: flex;
     flex-direction: column;
@@ -18,16 +19,19 @@
     background: #f3f6f9;
     border-radius: 5px;
   }
+
   .active,
   .card:hover {
     background: #e8f3fe;
   }
-  .card__tags {
+
+  .card-tags {
     display: flex;
     flex-direction: row;
     margin-bottom: 1rem;
   }
-  .card__bottom {
+
+  .card-bottom {
     display: flex;
     justify-content: space-between;
   }
@@ -37,12 +41,12 @@
   <img src={image} alt={title} />
   <h1>{title}</h1>
   <p>{description}</p>
-  <div class="card__tags">
+  <div class="card-tags">
     {#each tags as tag}
       <Tag {...tag} />
     {/each}
   </div>
-  <div class="card__bottom">
+  <div class="card-bottom">
     <div>
       <img src="/github_logo.svg" alt="github logo" />
       {stars}

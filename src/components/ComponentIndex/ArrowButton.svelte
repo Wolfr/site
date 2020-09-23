@@ -4,6 +4,7 @@
 </script>
 
 <style>
+
   div {
     border: 2px solid #7e7e93;
     border-radius: 5px;
@@ -13,6 +14,7 @@
     align-items: center;
     padding: 5px 15px;
   }
+
   div:hover {
     cursor: pointer;
     border-color: var(--color) !important;
@@ -26,9 +28,11 @@
     mask: url(/right-arrow.svg) no-repeat center;
     background-color: #7e7e93;
   }
+
   .arrow.active {
     background-color: var(--color);
   }
+
 </style>
 
 <div

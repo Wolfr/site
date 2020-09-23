@@ -11,14 +11,17 @@
     line-height: 150%;
     margin-bottom: 1rem;
   }
+
   .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
   }
+
   .list {
     margin-bottom: 5rem;
   }
+
 </style>
 
 <div class="list">
