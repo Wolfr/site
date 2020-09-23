@@ -8,6 +8,12 @@ Technologies used:
 * MDSveX
 * Cloudflare Worker Site
 
+
+## CSS rules
+
+* Please use rem units where possible
+* REM units are base 10 (1rem = 10px)
+
 ## Contributing
 
 Find an issue worth pursuing and pull down the repo. Run `npm install` followed by `npm run dev:nollup`. You can now access the site at `localhost:8080`.
